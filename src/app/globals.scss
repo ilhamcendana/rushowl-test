@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply text-neutral-100;
+}
+
+.Toastify {
+  .Toastify__toast-body {
+    div {
+      @apply text-neutral-800
+    }
+  }
+}
